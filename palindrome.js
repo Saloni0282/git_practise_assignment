@@ -1,12 +1,19 @@
-let num=13  
-let count=0;
-    for(let i=1;i<=num;i++){
-        if(num%i!==0){
-            count++;
-        }
-    }
-    if(count==2){
-    console.log("No");
-    }else{
+// Check_Palindrome...
+
+	let str = "naman";
+    
+    let bag = "";
+    
+    for(let p=str.lenght-1 ; p>=0 ; p--){
+        
+        bag += str[p];
+        
+    }if(bag===str){
+        
         console.log("Yes");
-    }
+        
+    }else{
+    
+    console.log("No");
+
+}
